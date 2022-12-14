@@ -1,0 +1,527 @@
+@media screen and (max-width: 1824px) {
+  html {
+    font-size: 59%;
+  }
+}
+@media screen and (max-width: 1724px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media screen and (max-width: 1624px) {
+  html {
+    font-size: 52%;
+  }
+}
+@media screen and (max-width: 1524px) {
+  html {
+    font-size: 48.5%;
+  }
+}
+@media screen and (max-width: 1415px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (max-width: 1315px) {
+  html {
+    font-size: 41.5%;
+  }
+}
+@media screen and (max-width: 1210px) {
+  html {
+    font-size: 38%;
+  }
+}
+@media screen and (max-width: 1108px) {
+  html {
+    font-size: 34.5%;
+  }
+}
+@media screen and (max-width: 1005px) {
+  html {
+    font-size: 31%;
+  }
+}
+@media screen and (max-width: 905px) {
+  html {
+    font-size: 27.5%;
+  }
+}
+@media screen and (max-width: 805px) {
+  html {
+    font-size: 26%;
+  }
+}
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 29%;
+    }
+  .Home header {
+    display: none;
+  }
+  .Home .header2 .close {
+    position: absolute;
+    z-index: 100;
+    top: 5%;
+    right: 5%;
+    font-size: 5rem;
+    cursor: pointer;
+  }
+  .Home .header2 {
+    display: flex;
+    position: absolute;
+    top: -70rem;
+    width: 100%;
+    height: 70rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.1rem solid #0f0c0c1f;
+    background-color: #c5e5e0;
+    z-index: 13rem;
+    z-index: 1;
+    transition: 0.3s all ease-in-out;
+  }
+  .Home .mobileHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+  }
+  .Home .mobileHeader .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home .mobileHeader .logo img {
+    width: 5.1rem;
+    height: 5rem;
+  }
+  .Home .mobileHeader .logo p {
+    font-family: Inter;
+    font-size: 3rem;
+    line-height: 2.4rem;
+    margin-left: 1rem;
+  }
+  .Home .mobileHeader .navbarButton {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+    cursor: pointer;
+  }
+  .Home .mobileHeader .navbarButton .lines {
+    width: 100%;
+    border-radius: 5rem;
+    height: 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  .Home .header2 nav {
+    flex-direction: column;
+    position: absolute;
+
+    width: 100%;
+
+    z-index: 10;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    /* display: none; */
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+  }
+  .Home .header2 nav button {
+    width: 17.4rem;
+    margin-top: 3rem;
+  }
+  .Home .header2 nav .navdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home .header2 nav div p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 2.4rem;
+    margin-top: 1rem;
+    color: #0f0c0c;
+  }
+  .Home .header2 nav .logo {
+    margin-top: 3.9rem;
+  }
+  .Home .header2 nav .logo img {
+    margin-right: 1rem;
+    width: 5.1rem;
+    height: 5rem;
+  }
+
+  .Home .header2 nav .Links {
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+  }
+  .Home .header2 nav .Links a {
+    margin-right: 5rem;
+    margin-top: 4.3rem;
+    font-size: 2.6rem;
+  }
+  .Home .header2 nav .Links .giveaway {
+    width: 20.1rem;
+    height: 9.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: black;
+    border-radius: 2.2rem;
+    margin-top: 4.3rem;
+  }
+  .Home .header2 nav .Links .giveaway p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: white;
+    margin-top: 1.4rem;
+  }
+  .Home .header2 nav .Links .giveaway h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    color: white;
+  }
+  .section2 .main{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 114rem;
+    height: 43.1rem;
+  }
+  .section2 .main .text h2{
+    text-align: center;
+  }
+  .section2 .main .text p{
+    text-align: center;
+    width: 66rem;
+  }
+  .section2 .main .cards{
+    margin-right: 0;
+  }
+  .section3{
+    padding-bottom: 10rem;
+    height: auto;
+}
+.section3 .cards{
+    width: 81.1rem;
+    flex-wrap: wrap;
+}
+.section3 .cards .card{
+    margin-bottom: 3rem;
+}
+  .section5 .cards{
+    width: 81.4rem;
+}
+.section5 .slider{
+    width: 96.4rem;
+}
+.section5 .heading{
+    flex-direction: column;
+}
+.section6{
+    height: auto;
+    padding-bottom: 10rem;
+}
+.section6 .cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+    width: 90%;
+    margin: auto;
+}
+.section6 .cards .card{
+    margin: 2rem;
+    margin-right: 2rem;
+}
+.section8 .leaderBoard{
+    flex-direction: column;
+}
+.section8 .leaderBoard .card{
+    margin-bottom: 2rem;
+}
+footer .container{
+    width: 129.1rem;
+}
+footer .container .r1:nth-child(2){
+    left: 43rem;
+}
+footer .container .r1:nth-child(3){
+    left: 65.9rem;
+}
+footer .bottom{
+    width: 129rem;
+}
+
+.section5 .cards{
+    flex-wrap: nowrap;
+}
+.section5 .cards .card{
+    margin-bottom: 0;
+}
+.PastWinners .container{
+    flex-direction: column;
+    align-items: center;
+width: 100%;
+}
+.section2jackpot .rows .row{
+ width: auto;
+    flex-direction: column;
+}
+.section2jackpot .rows{
+    padding-bottom: 5rem;
+}
+.section3jackpot .cards{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.section3jackpot .cards .card{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.section2jackpot .rows .row .r1{
+    width: 58rem;
+    height: 50.9rem;
+}
+.section2jackpot .rows .row .r1 img{
+    width: 100%;
+    height: auto;
+}
+.section2jackpot p{
+    width: 80%;
+}
+.section3jackpot p{
+    width: 80%;
+}
+.section2jackpot .rows .row .r2 p{
+    width: 80%;
+}
+.section2jackpot .rows .row .r2 h2{
+    margin-left: 8rem
+}
+.section2jackpot .rows .row .r2 button {
+    width: 14.6rem;
+    margin-left: 8rem;
+}
+.section2Leaderboard .container{
+  width: 70rem;
+}
+.section2Leaderboard p{
+  width: 80%;
+}
+.section2Giveaway{
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 120.2rem;
+}
+.section2Giveaway .container{
+  top: auto; 
+    left: 10rem;
+    position: relative;
+}
+.section2contact .row{
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+.section3contact .cards{
+  width: auto;
+  flex-direction: column;
+}
+.section3contact{
+  height: auto;
+  padding-bottom: 5rem;
+}
+.section3contact .cards .card{
+  margin-bottom: 2rem;
+}
+.section2contact .row .r2 {
+height: 53.8rem;
+  width: 55.4rem;
+}
+.section2contact .row .r2 img{
+  width: 55.4rem;
+  height: auto;
+}
+.section2getrich .main .form form .inputRow{
+  flex-direction: column;
+}
+.section2getrich .main .form form .inputRow .input .inputBox, .section2getrich .main .form form .inputRow:nth-child(2) .input .inputBox{
+  width: 74.2rem;
+}
+.section2getrich .main .form form .details{
+  justify-content: center;
+}
+.section2getrich .main .form form .inputRow{
+  width: auto;
+}
+}
+
+
+
+@media screen and (max-width: 545px) {
+    footer{
+        height: auto;
+    }
+    footer .container{
+        flex-direction: column;
+    padding-bottom: 3rem;
+    align-items: center;
+    width: 100%;
+    }
+    footer .container .r1:nth-child(2){
+        position: relative;
+        left: 0;
+    }
+    footer .container .r1:nth-child(3){
+        position: relative;
+        left: 0;
+    }
+    footer .container .r1 p{
+        width: 45.8rem;
+        text-align: center;
+    }
+    footer .container .r1 .socialIcons{
+        display: flex;
+    justify-content: center;
+}
+footer .container .r1 h2{
+    text-align: center;
+    }
+    footer .container .r1 ul li{
+        text-align: center;
+    }
+    footer .container .r1 .logo{
+        justify-content: center;
+    }
+    footer .container .r1 .logo p{
+        width: auto;
+    }
+    footer .bottom {
+        width: 90%;
+    }
+    
+    
+    .section2 .main{
+        height: auto;
+        padding-bottom: 5rem;
+        width: 80%;
+    padding-top: 5rem;
+}
+.section2 .main .text{
+    margin-left: 0;
+    }
+    .section2 .main .cards{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .section2 .main .cards .card{
+        margin-bottom: 2.5rem;
+        margin-right: 0;
+    }
+    .section5 .cards{
+        width: 40rem;
+    }
+    .section5 .slider {
+        width: 53.4rem;
+    }
+    .section2Giveaway .container {
+ left: 5rem;
+  }
+  .CreateGiveaway .form{
+    left: 3.1rem;
+  }
+  .section2questions .questionsBox .ques1{
+    width: 80%;
+  }
+  .section2questions p{
+    width: 80%;
+  }
+  .section2Quickcash .table{
+    width: 74.1rem;
+  }
+  .section2Quickcash6 .card{
+    width: 74.1rem;
+  }
+  .section2Quickcash6 .card .left p {
+    width: 55.8rem;
+}
+.section2getrich .main .form form .details{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2getrich .main .form form .details button{
+  margin: 2rem 0;
+}
+}
+        @media screen and (max-width: 425px) {
+            .section7 .container .r1{
+                width: 64.4rem;
+            }
+            .section7 .container .r1 .left{
+                width: 48rem;
+            }
+            .section7 .container .r1 .left .bottom{
+                width: auto;
+            }
+            .section3 .heading p:nth-child(2){
+                width: 80%;
+            }
+            .section3 .cards{
+                width: 41rem;
+            }
+            .section4 .slides .slide1 h5{
+                font-size: 3.8rem;
+            }
+            .section4 .slides .slide1 h2{
+                font-size: 7rem;
+            }
+            .section4 .slides .slide1 p{
+                width: 30%;
+            }
+            .Home .container .Tagline h3{
+                font-size: 3rem;
+            }
+            .Home .container .Tagline .line {
+                width: 20rem;
+              
+            }
+            .Home .container h2{
+                font-size: 8rem;
+            }
+            .CreateGiveaway .form{
+              width: 80%;
+            }
+            .CreateGiveaway .form form .inputRow .input input{
+              width: 60rem;
+            }
+            .CreateGiveaway .form form .Date{
+              width: auto;
+            }
+            .CreateGiveaway .form form .Date .input input{
+              width: 30rem;
+            }
+            .CreateGiveaway .form form .inputRow .input textarea{
+              width: 60rem;
+            }
+            .CreateGiveaway .form p{
+              width: 80%;
+            }
+            .CreateGiveaway .form form .inputRow .input .upload{
+              width: 60rem;
+            }
+            .CreateGiveaway .form form button{
+
+          width: 60rem;  } 
+                 }
